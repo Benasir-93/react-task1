@@ -1,0 +1,63 @@
+.pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:1000px;
+    height: 600px;
+    background-image: linear-gradient(rgb(250, 213, 213),rgb(203, 243, 203));
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+.card{
+    margin-right: 10px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 5%;
+    box-shadow: rgba(0,0,0,.3) 0px;
+   
+    border: 1px solid salmon;
+
+}
+.card:hover{
+    animation:pulse;
+    animation-duration: 1s;
+}
+.fade{
+    opacity:0.7;
+    text-decoration: line-through;
+}
+
+button{
+    background-color: rgb(66, 57, 57);
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(184, 184, 250);
+    color: rgb(11, 11, 75);
+}
+.fa-list {
+    list-style-type: none; 
+    padding-left: 0; 
+line-height:30px;  }
+  
+  
+  .fa-list li {
+    position: relative;
+    padding-left: 25px; 
+    margin-right: 20px; 
+  }
+  
+  .fa-list li:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'FontAwesome'; 
+    content: "\f00c"; /* Unicode of the checkmark icon */
+  }
+  
+  .fa-list:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  
